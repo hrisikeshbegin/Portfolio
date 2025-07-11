@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hrisikesh Kashyap | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <nav class="container">
+      <div class="logo">Hrisikesh Kashyap</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="toggle-theme" aria-label="Toggle theme">🌙</button>
+      <button class="hamburger" aria-label="Menu">☰</button>
+    </nav>
+  </header>
+
+  
+  <section id="home" class="hero">
+    <div class="hero-content container">
+      <img src="pdf.jpg" alt="Hrisikesh Kashyap" class="profile-pic">
+      <h1>Hi, I’m <span class="highlight-name">Hrisikesh Kashyap</span></h1>
+      <p>Electronics & Computer Engineering • IoT & Web Developer</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View Portfolio</a>
+        <a href="resume.pdf" class="btn btn-outline">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="about" class="about container">
+    <h2>About Me</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I am currently pursuing a Bachelor of Technology in Electronics and Computer Engineering at the National Institute of Technology, Silchar. Driven by curiosity, I am committed to continuous learning and developing innovative solutions that drive growth.</p>
+      </div>
+      <div class="timeline">
+        <div class="event"><span class="date">2023–2027</span><p>B.Tech, Electronics & Communication Engineering — NIT Silchar</p></div>
+        <div class="event"><span class="date">Jun 2025–Present</span><p>Web Developer — OpenIOT (Remote)</p></div>
+        <div class="event"><span class="date">May 2024–Jul 2024</span><p>Summer Intern — IEEE (Remote)</p></div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="skills" class="skills container">
+    <h2>Skills & Services</h2>
+    <div class="skill-charts">
+      <div class="chart" data-label="JavaScript"></div>
+      <div class="chart" data-label="Python"></div>
+      <div class="chart" data-label="C++"></div>
+      <div class="chart" data-label="Java"></div>
+    </div>
+    <div class="services">
+      <div class="card"><h3>UI/UX Design</h3></div>
+      <div class="card"><h3>Web Development</h3></div>
+      <div class="card"><h3>IoT Development</h3></div>
+    </div>
+  </section>
+
+  
+  <section id="projects" class="projects container">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card" data-category="web"><h3>Prescripto</h3></div>
+      <div class="project-card" data-category="web"><h3>YELP Camp</h3></div>
+      <div class="project-card" data-category="iot"><h3>Bluetooth Blitz Car</h3></div>
+      <div class="project-card" data-category="iot"><h3>Line Follower Bot</h3></div>
+      <div class="project-card" data-category="iot"><h3>Robalt</h3></div>
+      <div class="project-card" data-category="iot"><h3>QuadX Drone</h3></div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="contact container">
+    <h2>Contact</h2>
+    <form class="contact-form" method="post" action="submit_form.php">
+      <label><input type="text" name="name" placeholder="Name" required></label>
+      <label><input type="email" name="email" placeholder="Email" required></label>
+      <label><textarea name="message" placeholder="Message" required></textarea></label>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:hrisikesh.nits@gmail.com">hrisikesh.nits@gmail.com</a></p>
+      <p>Phone: <a href="tel:+918638209153">+91 8638209153</a></p>
+      <p>GitHub: <a href="https://github.com/hrisikeshbegin">hrisikeshbegin</a></p>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <p>© 2025 Hrisikesh Kashyap</p>
+    <button class="scroll-top" aria-label="Scroll to top">↑</button>
+  </footer>
+</body>
+</html>
